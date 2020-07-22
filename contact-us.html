@@ -51,13 +51,67 @@
         </ul>
       </div>
     </nav>
-    <!--Jumbotron-->
-    <div class="jumbotron">
-      <h1 class="display-4 uppercase">
-        All you need to know about Studio Ghibli's animations is here!
-      </h1>
-    </div>
-    <!-- Api data -->
+    <!--Form-->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h5 class="text-center h5-contact">Any questions/suggestions?</h5>
+          <div class="center-form">
+            <form onsubmit="returnsendMail(this);">
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name"
+                    required
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="inputEmail4"></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col">
+                  <textarea
+                    rows="4"
+                    name="Notes"
+                    id="Notes"
+                    class="form-control"
+                    placeholder="Notes"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-success btn-submit">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer fixed">
       <!-- Social buttons -->
@@ -98,5 +152,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="assets/js/EmailSend.js"></script>    
   </body>
 </html>
