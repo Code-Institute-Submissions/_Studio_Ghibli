@@ -74,6 +74,10 @@ ul.navbar-nav.mr-auto {
 }
 
 /*----------------------------------------------------Cards*/
+.card-title, .card-text{
+    text-align: center;
+}
+
 #main {
   max-width: 1200px;
   margin: 0 auto;
