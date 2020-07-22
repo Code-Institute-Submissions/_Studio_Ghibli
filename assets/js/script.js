@@ -1,6 +1,6 @@
 const urls = [];
 
-window.addEventListener("DOMContentLoaded", (event) => {
+window.addEventListener("DOMContentLoaded", () => {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "https://ghibliapi.herokuapp.com/films/");
   xhr.send();
