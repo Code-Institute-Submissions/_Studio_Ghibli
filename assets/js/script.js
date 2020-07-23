@@ -38,9 +38,7 @@ async function buildView(array_data, header) {
     // Write out the header and the json string of the response.
     $(
       `<h3>${header}</h3><p>${JSON.stringify(response.data).replace(
-        /,/g,
-        "<br>"
-      )}</p>`
+        /,/g, "<br>")}</p>`
     ).appendTo("#modalBody");
   }
 }
