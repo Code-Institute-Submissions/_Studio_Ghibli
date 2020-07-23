@@ -71,6 +71,10 @@ ul.navbar-nav.mr-auto {
   color: #fafafa;
 }
 
+.h1-dark {
+  color: rgb(53, 51, 53);
+}
+
 .lead {
   text-align: center;
   margin-top: 10px;
@@ -194,10 +198,8 @@ p {
   text-transform: uppercase;
 }
 
-.center-form {
-  padding-top: 10px;
-  padding-bottom: 60px;
-  max-width: 50%;
+.form {
+    margin-bottom: 100px;
 }
 
 textarea.form-control {
@@ -220,7 +222,7 @@ textarea.form-control {
 
 /*----------------------------------------------------Map*/
 div #map {
-  min-height: 360px;
+  min-height: 300px;
 }
 /*----------------------------------------------------Media*/
 @media screen and (max-width: 540px) {
