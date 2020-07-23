@@ -116,20 +116,6 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description6").innerHTML = myObj.description;
-  }
-};
-xmlhttp.open(
-  "GET",
-  "",
-  true
-);
-xmlhttp.send();
-
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
     document.getElementById("description7").innerHTML = myObj.description;
   }
 };
@@ -206,62 +192,6 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open(
   "GET",
   "https://ghibliapi.herokuapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c",
-  true
-);
-xmlhttp.send();
-
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    document.getElementById("description13").innerHTML = myObj.description;
-  }
-};
-xmlhttp.open(
-  "GET",
-  "",
-  true
-);
-xmlhttp.send();
-
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    document.getElementById("description14").innerHTML = myObj.description;
-  }
-};
-xmlhttp.open(
-  "GET",
-  "",
-  true
-);
-xmlhttp.send();
-
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    document.getElementById("description15").innerHTML = myObj.description;
-  }
-};
-xmlhttp.open(
-  "GET",
-  "",
-  true
-);
-xmlhttp.send();
-
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    document.getElementById("description16").innerHTML = myObj.description;
-  }
-};
-xmlhttp.open(
-  "GET",
-  "",
   true
 );
 xmlhttp.send();

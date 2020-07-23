@@ -42,12 +42,28 @@ ul.navbar-nav.mr-auto {
 }
 
 .navbar-light .navbar-nav .nav-item:hover {
-  border-bottom: 1px solid rgb(248, 130, 238);
+  border-bottom: 1px solid rgb(53, 51, 53);
 }
 
 .form-control:focus {
-  border-color: rgb(248, 130, 238);
-  box-shadow: 0 0 0 0.2rem rgba(248, 130, 238, 0.25);
+  border-color: rgb(53, 51, 53);
+  box-shadow: 0 0 0 0.2rem rgba(53, 51, 53, 0.25);
+}
+
+/*----------------------------------------------------Jumbotron*/
+.jumbotron {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  min-height: 400px;
+}
+
+.display-4 {
+  color: rgb(53, 51, 53);
+  text-transform: uppercase;
+  text-align: center;
+  background-color: transparent;
 }
 
 /*----------------------------------------------------API Data*/
@@ -55,25 +71,26 @@ ul.navbar-nav.mr-auto {
     font-weight: 200;
     font-size: 16px;
     font-family: Montserrat, sans-serif;
-    color: #1a1919ad;
+    color: rgb(53, 51, 53);
 }
 
 .film-url:hover{
-    color: rgb(248, 130, 238);
+    color: rgba(53, 51, 53, 0.25);
+    text-decoration: none;
 }
 /*----------------------------------------------------Footer*/
 .social-links {
   font-size: 40px;
   margin-right: 20px;
   margin-top: 15px;
-  color: #1a1919ad;
+  color: rgb(53, 51, 53);
 }
 
 .social-links:hover {
-  color: rgb(248, 130, 238);
+  color: rgb(53, 51, 53, 0.25);
 }
 
-/*----------------------------------------------------Cards*/
+/*----------------------------------------------------Flip Cards*/
 .container-fluid{
     margin-left: 25px;
 }
@@ -81,7 +98,12 @@ ul.navbar-nav.mr-auto {
 .card-title {
     text-align: center;
 }
-/*----------------------------------------------------Flip Cards*/
+
+.card-img-top{
+    width: 100%;
+    height: 30vw;
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -127,7 +149,7 @@ h1, .modal-header {
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(248, 130, 238, 0.25);
+  background-color: rgba(53, 51, 53, 0.25);
   margin-bottom: 5px;
 }
 
@@ -137,23 +159,6 @@ h3, h4, h6 {
 
 p{
     margin-left: 2px;
-}
-/*----------------------------------------------------Jumbotron*/
-.jumbotron {
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: rgba(248, 130, 238, 0.25);
-}
-
-.display-4 {
-  color: #1a1919ad;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.lead {
-  margin-top: 20px;
-  text-align: center;
 }
 
 /*----------------------------------------------------contact-us*/
@@ -177,17 +182,17 @@ textarea.form-control {
 }
 
 .btn-success {
-  background-color: rgb(248, 130, 238);
-  border: rgb(248, 130, 238);
+  background-color: rgb(53, 51, 53);
+  border: rgb(53, 51, 53);
   font-family: Montserrat, sans-serif;
   letter-spacing: 2px;
-  color: #1a1919ad;
+  color:#fafafa;
 }
 
 .btn-success:hover {
-  background-color: rgba(248, 130, 238, 0.25);
-  border: rgba(248, 130, 238, 0.25);
-  color: #1a1919ad;
+  background-color: rgba(53, 51, 53, 0.25);
+  border: rgba(53, 51, 53, 0.25);
+  color: rgb(53, 51, 53);
 }
 /*----------------------------------------------------Media*/
 @media screen and (max-width: 540px) {
