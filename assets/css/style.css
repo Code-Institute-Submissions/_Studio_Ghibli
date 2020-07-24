@@ -264,4 +264,12 @@ div #map {
     margin-right: -15px;
     margin-left: -15px;
   }
+
+  .card-img-top {
+    height: 40vw;
+}
+
+.flip-card {
+   margin-bottom: 20px;
+}
 }
