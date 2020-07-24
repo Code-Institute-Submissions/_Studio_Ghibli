@@ -71,10 +71,6 @@ ul.navbar-nav.mr-auto {
   color: #fafafa;
 }
 
-.h1-dark {
-  color: rgb(53, 51, 53);
-}
-
 .lead {
   text-align: center;
   margin-top: 10px;
@@ -88,7 +84,7 @@ ul.navbar-nav.mr-auto {
   background-repeat: no-repeat;
 }
 
-/*----------------------------------------------------API Data*/
+/*----------------------------------------------------index.html Api URLs*/
 .film-url {
   font-weight: 200;
   font-size: 16px;
@@ -167,14 +163,13 @@ ul.navbar-nav.mr-auto {
   transform: rotateY(180deg);
 }
 
-h1,
+h2,
 .modal-header {
   font-weight: 400;
   font-size: 24px;
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(53, 51, 53, 0.116);
   margin-bottom: 5px;
 }
 

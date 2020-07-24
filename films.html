@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/lumen/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Studio Ghibli</title>
-  </head>
 
-  <body>
-    <!--Logo-->
-    <div class="logo-img">
-      <img src="assets/images/logo.png" alt="StudioGhibli-logo" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/lumen/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<title>Studio Ghibli</title>
+</head>
+
+<body>
+	<!--Logo-->
+	<div class="logo-img">
+		<img src="assets/images/logo.png" alt="StudioGhibli-logo" />
     </div>
-    <!--Navigation bar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <button
+		<!--Navigation bar-->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+			<button
         class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
         type="button"
         data-toggle="collapse"
@@ -34,316 +29,357 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="films.html">Feature Films</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--Jumbotron-->
-    <div
-      class="jumbotron jumbo-img"
-      style="background-image: url(assets/images/movies/ayaandthewitch.jpg);"
-    >
-      <h1 class="display-4 h1-white">
-        Feature Films
-      </h1>
-    </div>
-    <!-- Card columns -->
-    <div class="container">
-      <div class="card-deck">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="films.html">Feature Films</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!--Jumbotron-->
+		<div class="jumbotron jumbo-img" style="background-image: url(assets/images/movies/ayaandthewitch.jpg);">
+			<h1 class="display-4 h1-white">
+				Feature Films
+			</h1>
+		</div>
+		<!-- Card columns -->
+		<div class="container">
+			<div class="card-deck">
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/castleinthesky.jpg"
                 alt="Castle in the sky"
               />
-              <h4>Castle in the sky</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description"></p>
-              <h4 id="date"></h4>
-              <h4 id="rt-score"></h4>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Castle in the sky</h4>
+						</div>
+						<div class="flip-card-back">
+							<h2>Film card</h2>
+							<p id="description"></p>
+							<h4 id="date"></h4>
+							<h4 id="rt-score"></h4>
+							<h4 id="director"></h4>
+							<h4 id="producer"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/fromuponpopyhill.jpg"
                 alt="From upon Poppy Hill"
               />
-              <h4>From upon Poppy Hill</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description1"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>From upon Poppy Hill</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description1"></p>
+							<h4 id="date1"></h4>
+							<h4 id="rt-score1"></h4>
+							<h4 id="director1"></h4>
+							<h4 id="producer1"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/howlsmovingcastle.jpeg"
                 alt="Howl's moving castle"
               />
-              <h4>Howl's moving castle</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description2"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Howl's moving castle</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description2"></p>
+							<h4 id="date2"></h4>
+							<h4 id="rt-score2"></h4>
+							<h4 id="director2"></h4>
+							<h4 id="producer2"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/kikisdeliveryservice.jpg"
                 alt="Kiki's delivery service"
               />
-              <h4>Kiki's delivery service</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description3"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Kiki's delivery service</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description3"></p>
+							<h4 id="date3"></h4>
+							<h4 id="rt-score3"></h4>
+							<h4 id="director3"></h4>
+							<h4 id="producer3"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/myneighborstheyamadas.jpg"
                 alt="My Neighbors the Yamadas"
               />
-              <h4>My neighbors the Yamadas</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description4"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>My neighbors the Yamadas</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description4"></p>
+							<h4 id="date4"></h4>
+							<h4 id="rt-score4"></h4>
+							<h4 id="director4"></h4>
+							<h4 id="producer4"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/myneighbortotoro.jpg"
                 alt="My neighbor Totoro"
               />
-              <h4>My neighbor Totoro</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description5"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>My neighbor Totoro</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description5"></p>
+							<h4 id="date5"></h4>
+							<h4 id="rt-score5"></h4>
+							<h4 id="director5"></h4>
+							<h4 id="producer5"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/onlyyesterday.jpg"
                 alt="Only yesterday"
               />
-              <h4>Only yesterday</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description7"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Only yesterday</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description7"></p>
+							<h4 id="date7"></h4>
+							<h4 id="rt-score7"></h4>
+							<h4 id="director7"></h4>
+							<h4 id="producer7"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/pompoko.jpg"
                 alt="Pompoko"
               />
-              <h4>Pom Poko</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description8"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Pom Poko</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description8"></p>
+							<h4 id="date8"></h4>
+							<h4 id="rt-score8"></h4>
+							<h4 id="director8"></h4>
+							<h4 id="producer8"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/ponyo.jpg"
                 alt="Ponyo"
               />
-              <h4>Ponyo</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description9"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Ponyo</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description9"></p>
+							<h4 id="date9"></h4>
+							<h4 id="rt-score9"></h4>
+							<h4 id="director9"></h4>
+							<h4 id="producer9"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/porcorosso.jpg"
                 alt="Porco Rosso"
               />
-              <h4>Porco Rosso</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description10"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Porco Rosso</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description10"></p>
+							<h4 id="date10"></h4>
+							<h4 id="rt-score10"></h4>
+							<h4 id="director10"></h4>
+							<h4 id="producer10"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/princessmononoke.jpg"
                 alt="Princess Mononoke"
               />
-              <h4>Princess Mononoke</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description11"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Princess Mononoke</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description11"></p>
+							<h4 id="date11"></h4>
+							<h4 id="rt-score11"></h4>
+							<h4 id="director11"></h4>
+							<h4 id="producer11"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/spiritedaway.jpg"
                 alt="Spirited Away"
               />
-              <h4>Spirited away</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description12"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Spirited away</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description12"></p>
+							<h4 id="date12"></h4>
+							<h4 id="rt-score12"></h4>
+							<h4 id="director12"></h4>
+							<h4 id="producer12"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/whenmarniewasthere.jpg"
                 alt="when Marnie was there"
               />
-              <h4>When Marnie was there</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description17"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>When Marnie was there</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description17"></p>
+							<h4 id="date17"></h4>
+							<h4 id="rt-score17"></h4>
+							<h4 id="director17"></h4>
+							<h4 id="producer17"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/whisperoftheheart.jpg"
                 alt="whisper of the heart"
               />
-              <h4>Whisper of the heart</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description18"></p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
+							<h4>Whisper of the heart</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description18"></p>
+							<h4 id="date18"></h4>
+							<h4 id="rt-score18"></h4>
+							<h4 id="director18"></h4>
+							<h4 id="producer18"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img
                 class="card-img-top"
                 src="assets/images/movies/windrises.jpg"
                 alt="wind rises"
               />
-              <h4>Wind rises</h4>
-            </div>
-            <div class="flip-card-back">
-              <h1>Description</h1>
-              <p id="description19"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer -->
-    <footer class="footer fixed">
-      <!-- Social buttons -->
-      <ul class="list-inline text-center">
-        <li class="list-inline-item">
-          <a
-            class="btn-floating btn-fb mx-1"
-            target="_blank"
-            href="https://www.facebook.com/jihane.azim.7"
-            ><i class="fab fa-facebook social-links" aria-hidden="true"></i
-            ><span class="sr-only">Facebook</span></a
-          >
-        </li>
-        <li class="list-inline-item">
-          <a
-            class="btn-floating btn-li mx-1"
-            target="_blank"
-            href="https://www.instagram.com/naturalmaroc2017/?hl=en"
-            ><i class="fab fa-instagram social-links" aria-hidden="true"></i
-            ><span class="sr-only">Instagram</span></a
-          >
-        </li>
-        <li class="list-inline-item">
-          <a
-            class="btn-floating btn-li mx-1"
-            target="_blank"
-            href="https://www.linkedin.com/in/jihanepetticrew"
-            ><i class="fab fa-linkedin social-links" aria-hidden="true"></i
-            ><span class="sr-only">Linkedin</span></a
-          >
-        </li>
-      </ul>
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
-    </footer>
+							<h4>Wind rises</h4>
+						</div>
+						<div class="flip-card-back">
+							<h1>Film card</h1>
+							<p id="description19"></p>
+							<h4 id="date19"></h4>
+							<h4 id="rt-score19"></h4>
+							<h4 id="director19"></h4>
+							<h4 id="producer19"></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer class="footer fixed">
+			<!-- Social buttons -->
+			<ul class="list-inline text-center">
+				<li class="list-inline-item">
+					<a class="btn-floating btn-fb mx-1" target="_blank"
+						href="https://www.facebook.com/jihane.azim.7"><i class="fab fa-facebook social-links" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="btn-floating btn-li mx-1" target="_blank"
+						href="https://www.instagram.com/naturalmaroc2017/?hl=en"><i class="fab fa-instagram social-links" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+				</li>
+				<li class="list-inline-item">
+					<a class="btn-floating btn-li mx-1" target="_blank"
+						href="https://www.linkedin.com/in/jihanepetticrew"><i class="fab fa-linkedin social-links" aria-hidden="true"></i><span class="sr-only">Linkedin</span></a>
+				</li>
+			</ul>
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">© 2020 Copyright</div>
+		</footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="assets/js/films.js"></script>
-  </body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script type="text/javascript" src="assets/js/films.js"></script>
+</body>
+
 </html>
