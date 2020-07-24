@@ -1,6 +1,6 @@
 # STUDIO GHIBLI
 
-![Apple devices view](assets/images/readme/responsiveneness-screens.png)
+![Apple devices view](assets/images/readme/responsiveness-screens.png)
 
 This site will be an ongoing dynamic page, designed to give information on the Studio Ghibli’s movies.
 
