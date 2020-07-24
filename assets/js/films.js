@@ -2,11 +2,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description").innerHTML = `${myObj.description.substring(0, 500)}...`;
-    document.getElementById("date").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -20,11 +30,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description1").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date1").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score1").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director1").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer1").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description1"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date1"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score1"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director1"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer1"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -38,11 +58,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description2").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date2").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score2").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director2").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer2").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description2"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date2"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score2"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director2"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer2"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 
@@ -57,11 +87,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description3").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date3").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score3").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director3").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer3").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description3"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date3"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score3"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director3"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer3"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -75,11 +115,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description4").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date4").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score4").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director4").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer4").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description4"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date4"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score4"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director4"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer4"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -93,11 +143,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description5").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date5").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score5").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director5").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer5").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description5"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date5"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score5"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director5"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer5"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -111,11 +171,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description7").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date7").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score7").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director7").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer7").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description7"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date7"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score7"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director7"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer7"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -129,11 +199,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description8").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date8").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score8").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director8").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer8").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description8"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date8"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score8"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director8"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer8"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -147,11 +227,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description9").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date9").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score9").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director9").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer9").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description9"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date9"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score9"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director9"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer9"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -165,11 +255,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description10").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date10").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score10").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director10").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer10").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description10"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date10"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score10"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director10"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer10"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -183,11 +283,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description11").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date11").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score11").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director11").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer11").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description11"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date11"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score11"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director11"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer11"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -201,11 +311,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description12").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date12").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score12").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director12").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer12").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description12"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date12"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score12"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director12"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer12"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -219,11 +339,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description17").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date17").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score17").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director17").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer17").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description17"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date17"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score17"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director17"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer17"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -237,11 +367,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description18").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date18").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score18").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director18").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer18").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description18"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date18"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score18"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director18"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer18"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
@@ -255,11 +395,21 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("description19").innerHTML = `${myObj.description.substring(0, 500)}...`;
-        document.getElementById("date19").innerHTML = `Release date: ${myObj.release_date}`;
-    document.getElementById("rt-score19").innerHTML = `Rt score: ${myObj.rt_score} %`;
-    document.getElementById("director19").innerHTML = `Director: ${myObj.director}`;
-    document.getElementById("producer19").innerHTML = `Producer: ${myObj.producer}`;
+    document.getElementById(
+      "description19"
+    ).innerHTML = `${myObj.description.substring(0, 500)}...`;
+    document.getElementById(
+      "date19"
+    ).innerHTML = `Release date: ${myObj.release_date}`;
+    document.getElementById(
+      "rt-score19"
+    ).innerHTML = `Rt score: ${myObj.rt_score} %`;
+    document.getElementById(
+      "director19"
+    ).innerHTML = `Director: ${myObj.director}`;
+    document.getElementById(
+      "producer19"
+    ).innerHTML = `Producer: ${myObj.producer}`;
   }
 };
 xmlhttp.open(
