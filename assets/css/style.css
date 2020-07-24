@@ -96,6 +96,7 @@ ul.navbar-nav.mr-auto {
   color: rgba(53, 51, 53, 0.25);
   text-decoration: none;
 }
+
 /*----------------------------------------------------Footer*/
 .social-links {
   font-size: 40px;
@@ -230,5 +231,37 @@ div #map {
   }
   .center-form {
     margin: 0 auto;
+  }
+
+.carousel {
+    margin-top: 20px;
+}
+
+.col-sm-4.text-center {
+    margin-top: -30px;
+}
+
+.flip-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.p-contact {
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 990px) {
+  .navbar-light .navbar-nav .nav-item:hover {
+    border-bottom: 0;
+  }
+
+  .card-deck {
+    margin-right: -15px;
+    margin-left: -15px;
   }
 }
