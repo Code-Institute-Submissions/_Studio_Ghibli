@@ -1,39 +1,50 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# STUDIO GHIBLI
 
-Welcome JihanePett,
+![Apple devices view](assets/images/readme/responsiveneness-screens.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This site will be an ongoing dynamic page, designed to give information on the Studio Ghibli’s movies.
 
-## Gitpod Reminders
+It is a creation for the 2nd Milestone project as part of the Code institute Full stack software development diploma.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Its goal is to provide anyone who is passionate about Studio Ghibli a comprehensive set of data related to each movie. Whether it is related to its characters, locations, vehicles.
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: *Make Public*,
+ The purpose of the site is to allow the users to gain knowledge of the incredible characters, locations and vehicles each of the Studio Ghibli has developed. 
+It is also a place of information for those who are not familiar with Studio Ghibli, it provides simplified details of each movie laid out in cards with the movie jackets, descriptions, director, producer, release date and rt scores.
 
-Another blue button should appear to click: *Open Browser*.
+ #### User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+   * As a fan I would want to know more about each characters’, locations and vehicles details. Anything that is related to Studio Ghibli is a must know and I would happily subscribe to keep updated especially if there are new features to come.
 
-A blue button should appear to click: *Make Public*,
+   * As a person whom is seeking general information on what are Studio Ghibli movies about, I would want to know what are the movies about, and if I want to ever watch them I will be looking for their RT scores, release date, description. This information will allow me to decide whether or not I want to be part of the Studio Ghibli’s experience.
 
-Another blue button should appear to click: *Open Browser*.
+ ## Features
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Existing Features
 
-## Updates Since The Instructional Video
+  * __Home __ - provides an explanation of what to find on this page. The navigation bar is fixed on top so any user can feel free to navigate through the other pages and find out more about the site. This page is important as it provides the users with the option to click on any of the movies title as they are hyperlinked to the api so they can discover more about each movie. (details of every characters such as names, eye color, hair color, gender, age, locations name and type, vehicles: type and names)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+  * __feature films__ - Allows the users to browse through the studio Ghibli’s movies and read about their description, and inform themselves about the release date, producer, director and rt scores.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  * __about__  - This gives a chance to anyone to stay in touch or request data or information related to the site or simply subscribe to stay tuned with the coming features by filling the contact form. It also gives an idea to the user as per where the site was originated on the world map.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  
+  ###  Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* __feature films__ - Embedding a youtube trailer for each movie
+* __Streaming__ - A page to allow the users to stream the movies they want to watch.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+  
+ ## Technologies Used
 
-Happy coding!
+ 1. **HTML, or Hyper Text Markup Language:** 
+ 2. **CSS, or Cascading Style Sheets:**  
+ 3. **Bootstrap:** 
+ 4. **Javascript** 
+ 5. **Gitpod:**  
+ 6. **Git:** 
+ 7. **GitHub:** 
+ 8. **Chrome DevTools:**   
+ 9.  **W3C Markup Validation Service** 
