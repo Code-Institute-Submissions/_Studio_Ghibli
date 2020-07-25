@@ -223,11 +223,11 @@ textarea.form-control {
   color: rgb(53, 51, 53);
 }
 
-/*----------------------------------------------------Map
+/*----------------------------------------------------Map */
 div #map {
   min-height: 300px;
 }
-*/
+
 /*----------------------------------------------------Media*/
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .navbar-light .navbar-nav .nav-item:hover {
@@ -267,7 +267,7 @@ div #map {
   }
 
   .card-deck {
-    margin-left: -25px;
+    margin-left: -20px;
   }
 
   .flip-card {
