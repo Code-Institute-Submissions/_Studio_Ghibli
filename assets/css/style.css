@@ -213,16 +213,21 @@ textarea.form-control {
   height: 50px;
 }
 
-.btn-success:hover, .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show>.btn-success.dropdown-toggle {
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
   background-color: rgba(53, 51, 53, 0.25);
   border: rgba(53, 51, 53, 0.25);
   color: rgb(53, 51, 53);
 }
 
-/*----------------------------------------------------Map*/
+/*----------------------------------------------------Map
 div #map {
   min-height: 300px;
 }
+*/
 /*----------------------------------------------------Media*/
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .navbar-light .navbar-nav .nav-item:hover {
@@ -244,6 +249,7 @@ div #map {
 
   .card-deck {
     margin-bottom: 50px;
+    margin-left: -20px;
   }
 
   .form {
