@@ -13,9 +13,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-        <title>Studio Ghibli</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-	<script type="text/javascript">(function(){emailjs.init("user_0YyYWKEECJjsPNsOpPRKd");})();</script>        
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_0YyYWKEECJjsPNsOpPRKd");
+      })();
+    </script>
+    <title>Studio Ghibli</title>
   </head>
 
   <body>
@@ -75,7 +82,7 @@
             <br />So stay tuned!
           </p>
           <div class="form">
-            <form onsubmit="returnsendMail(this);">
+            <form onsubmit="return sendMail(this);">
               <div class="row">
                 <div class="col">
                   <input
@@ -121,7 +128,7 @@
               </div>
               <div class="d-flex justify-content-center">
                 <button type="submit" class="btn btn-success btn-submit">
-                  Submit
+                  Send request
                 </button>
               </div>
             </form>
@@ -131,7 +138,16 @@
           <p class="p-contact text-center">
             We are established in Ireland <br />Come visit Dublin sometimes
           </p>
-          <div id="map"></div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152515.25333334532!2d-6.385788093083225!3d53.32444313869091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1595668383191!5m2!1sen!2sie"
+            width="350"
+            height="400"
+            frameborder="0"
+            style="border: 0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
         </div>
       </div>
     </section>
@@ -170,16 +186,11 @@
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
     </footer>
-    <script type="text/javascript" src="assets/js/EmailSend.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqSO2FQRf2r9wzRXqyG31KZTm25ribnec&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
-    <script type="text/javascript" src="assets/js/map.js"></script>
+    <script type="text/javascript" src="assets/js/emailSend.js"></script>
   </body>
 </html>
