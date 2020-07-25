@@ -42,7 +42,7 @@ It is also a place of information for those who are not familiar with Studio Ghi
 1.  **HTML, or Hyper Text Markup Language:**
 2.  **CSS, or Cascading Style Sheets:**
 3.  **Bootstrap:**
-4.  **Javascript**
+4.  **Javascript, AXIOS**
 5.  **Gitpod:**
 6.  **Git:**
 7.  **GitHub:**
@@ -52,29 +52,22 @@ It is also a place of information for those who are not familiar with Studio Ghi
 ## Testing
 
 1. http://ami.responsivedesign.is/ has been used to see how the site performs on different Apple devices and their viewports, all pages, links, icons performed as expected on all devices.
-2. **Desktop**
-
+2. **Desktop** 
    - Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
-
 3. **Mobile**
-
-- used both Huawei and Samsung S10 to check every pages and links, all performs well on all devices.
-
+   - used both Huawei and Samsung S10 to check every pages and links, all performs well on all devices.
 4.  **Contact Form**
-
     1.  Filling the contact us form: the form won’t allow to be sent unless all data is entered with a proper email address.
-
     2.  Upon clicking submit the form is submitting properly and the outcome is logged in the console (Success)
-
-5.  **Issues encountered:** It was really hard to find the right css styling for the card deck for the smaller screens as the cards shift so ended up finding the right devices min and max width to adapt.
+5.  **Issues encountered:** 
+    - Part of my coding testing, JSHint was throwing back an error "template literal syntax' is only available in ES6 (use 'esversion: 6')", to get around it I have added /* jshint esversion: 6 */ at the top of my script.
+    - It was really hard to find the right css styling for the card deck for the smaller screens as the cards shift so ended up finding the right devices min and max width to adapt.
     Another issue encountered was with the Google Maps API, first because in order to use the api, registering for billing is mandatory. Secondly once the map rendered on the bigger screen, it wouldn’t display on any mobile devices, the key here is to add all the referrers on the google map api site so to allow it to display on all the devices.
 
 ## Deployment
 
 1. working with Github
-
 2. After creating a repository all the files were uploaded on github through gitpod
-
 3. The site is then published through the settings on github, at: https://jihanepett.github.io/_Studio_Ghibli/
 4. Github gives the option to clone this workspace, for more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
@@ -84,20 +77,18 @@ It is also a place of information for those who are not familiar with Studio Ghi
 
 1. HTML & CSS Flip cards: https://www.w3schools.com/howto/howto_css_flip_card.asp
    Used on my feature films.
-
 2. Google Fonts for font styles; https://fonts.google.com/
 
 ### Media
 
 1.  Am I Responsive web site for checking responsiveness on all Apple devices screen sizes;
     http://ami.responsivedesign.is/
-
 2.  https://stackoverflow.com/ w3schools Used as a resource for finding answers to all types of coding problems.
+3.  JSHint to check my javascripts codes
+4.  W3 validator to check html and css codes
 
 ### Acknowledgements
 
 1. All of the Code institute members whom have provided great opinions, insights on my project.
-
-2.My super mentor Adeye Adegbenga for his time, great advices and all the support provided to achieve this project.
-
+2. My super mentor Adeye Adegbenga for his time, great advices and all the support provided to achieve this project.
 3. My family for giving me the precious time to study, work on the projects and keep it up
