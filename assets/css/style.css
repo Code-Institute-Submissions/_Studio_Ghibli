@@ -186,6 +186,13 @@ p {
 }
 
 /*----------------------------------------------------contact-us.html form*/
+.h-contact {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 .p-contact {
   font-family: "Roboto", sans-serif;
   margin-top: 50px;
