@@ -1,4 +1,6 @@
+/*jshint esversion: 9 */
 const urls = [];
+
 
 window.addEventListener("DOMContentLoaded", async () => {
   const movieList = await axios.get("https://ghibliapi.herokuapp.com/films/");
@@ -20,12 +22,11 @@ async function populatemodal(url, title) {
   const response = await axios.get(url);
 
   let people = await buildView(response.data.people, "People");
-  let species = await buildView(response.data.species, "Species");
   let locations = await buildView(response.data.locations, "Locations");
   let vehicles = await buildView(response.data.vehicles, "Vehicles");
   // Show Modalspecies
   document.getElementById("card").innerHTML =
-    people + species + locations + vehicles;
+    people + locations + vehicles;
   $("#staticBackdrop").modal("toggle");
 }
 
@@ -44,11 +45,6 @@ async function buildView(array_data, header) {
           `<p>${response.data[i].name}, ` +
           `${response.data[i].gender}, ` +
           `${response.data[i].age}.</p>`;
-      } else if (header == "Species") {
-        htmlString +=
-          `<p>${response.data[i].name}, ` +
-          `${response.data[i].classification}, ` +
-          `${response.data[i].eye_colors}.</p>`;
       } else if (header == "Locations") {
         htmlString +=
           `<p>${response.data[i].name}, ` +
