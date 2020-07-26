@@ -1,6 +1,9 @@
 # STUDIO GHIBLI
 
 ![Apple devices view](assets/images/readme/responsiveness-screens.png)
+![Apple devices view](assets/images/readme/responsiveness-screens-2.png)
+![Apple devices view](assets/images/readme/responsiveness-screens-3.png)
+
 
 This site will be an ongoing dynamic page, designed to give information on the Studio Ghibli’s movies.
 
@@ -55,7 +58,7 @@ It is also a place of information for those who are not familiar with Studio Ghi
 2. **Desktop** 
    - Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. Developer tools were also used on all browsers for the various viewport sizes.
 3. **Mobile**
-   - used both Huawei and Samsung S10 to check every pages and links, all performs well on all devices.
+   - used both Huawei CLT-L09 and Samsung Note 9 to check every pages and links, all performs well on all devices.
 4.  **Contact Form**
     1.  Filling the contact us form: the form won’t allow to be sent unless all data is entered with a proper email address.
     2.  Upon clicking submit the form is submitting properly and the outcome is logged in the console (Success)
