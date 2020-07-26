@@ -89,6 +89,6 @@ It is also a place of information for those who are not familiar with Studio Ghi
 
 ### Acknowledgements
 
-1. All of the Code institute members whom have provided great opinions, insights on my project.
+1. All of the Code institute members whom have provided great opinions, insights on my project and especially Kevin for the great tutoring session.
 2. My super mentor Adeye Adegbenga for his time, great advices and all the support provided to achieve this project.
 3. My family for giving me the precious time to study, work on the projects and keep it up

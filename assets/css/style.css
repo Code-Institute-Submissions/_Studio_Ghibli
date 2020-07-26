@@ -175,6 +175,12 @@ h2,
   margin-bottom: 5px;
 }
 
+.h3-modalcard{
+    background-color: rgba(54, 53, 54, 0.274);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 h3,
 h4,
 h6 {
